@@ -1,0 +1,201 @@
+
+
+@media (min-width:500px) {
+    
+
+body{
+    font-size: 17px;
+
+    font-weight: 400;
+    color: white;
+}
+
+.main-container{
+   
+    height: 480px;
+    border-top-left-radius: 120px;
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+}
+/* All the three columns in the container */
+.col{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 54px;
+    justify-content: space-around;
+}
+img{
+    width:15%;
+    margin-top: 19px;
+
+}
+
+/* All the p text in the container */
+.col p {
+    /* padding-bottom: 50px; */
+    padding-right: 60px;
+    margin-bottom: 100px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-weight: lighter;
+}
+/* All the head text in container */
+
+.col h1 {
+    letter-spacing: 0.1px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size:40px;
+
+}
+/* All the a tags in the container */
+.col a{
+    width: 30%;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    background-color: white;
+    text-align: center;
+    transition: 0.3s;
+    font-weight: 700;
+
+}
+.col-1{
+    background-color: hsl(31, 77%, 52%);
+}
+.col-1 a{
+    color: hsl(31, 77%, 52%);
+}
+.col-1 a:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+}
+
+
+.col-2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.col-2 a{
+    color: hsl(184, 100%, 22%);
+}
+
+.col-2 a:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+}
+.col-3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.col-3 a{
+    color: hsl(179, 100%, 13%);
+}
+.col-3 a:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+}
+
+
+
+
+
+@media(max-width:400px)
+{
+    .main-container{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        
+        color: white;
+        font-size: 15px;
+    }
+    .col{
+        
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        
+        padding-left: 115px; 
+        width: 20%; 
+    
+    }
+    .col h1{
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .col p{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+
+    .col-1{
+        background-color: hsl(31, 77%, 52%);
+    }
+    .col-2{
+        background-color: hsl(184, 100%, 22%);
+    }
+    .col-3{
+        background-color: hsl(179, 100%, 13%);
+    }
+    
+    .col a{
+        width: 30%;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 25px;
+        margin-bottom: 60px;
+        background-color: white;
+        text-align: center;
+        font-weight: 700;
+        margin-left: 92px;
+
+        
+    
+    }
+
+    .col-1 a{
+        color: hsl(31, 77%, 52%);
+    }
+
+    .col-2 a{
+        color: hsl(184, 100%, 22%);
+    }
+    
+
+    .col-3 a{
+        color: hsl(179, 100%, 13%);
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+}
